@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 import { SunToggle } from './Svg';
-import Navbtn from './Navbtn'; // Import your mobile bottom nav
+import NaVbtn from './NaVbtn'
 
 function NavbarApp() {
   return (
@@ -49,7 +49,7 @@ function NavbarApp() {
 
       {/* Bottom Tab Bar (Mobile Only) */}
       <div className="d-lg-none">
-        <Navbtn />
+        <NaVbtn/>
       </div>
     </>
   );

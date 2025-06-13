@@ -10,13 +10,14 @@ import AOS from 'aos';
 
 import './app.css'
 import Footer from './components/Footer';
+import NaVbtn from './components/NaVbtn';
 
 
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration
-      once: true,     // Only animate once
+      duration: 1000, 
+      once: true,
     });
   }, []);
   

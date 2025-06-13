@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
-import "aos/dist/aos.css"; // make sure to import styles
+import "aos/dist/aos.css";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 import IconSlider from "./IconSlider";
@@ -236,6 +236,8 @@ function About() {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </>
   );
 }
