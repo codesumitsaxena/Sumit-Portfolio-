@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import { useEffect } from 'react';
 import AOS from 'aos';
 
-import './app.css'
+import './App.css'
 import Footer from './components/Footer';
 import NaVbtn from './components/NaVbtn';
 
