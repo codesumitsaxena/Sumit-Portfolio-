@@ -126,7 +126,7 @@ body{
 
 .project{
   border-bottom: 1px solid black;
-  height: 170px;
+  height: auto;
 }
 
 .git-btn{
@@ -304,5 +304,30 @@ font-weight: bold;
     width: 240px;
     height: auto;
    
+  }
+}
+.project-img-hover {
+  max-width: 80%;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.95);
+  transition: all 0.4s ease-in-out;
+  margin-left: 7rem;
+
+}
+
+@media (min-width: 992px) {
+  .project:hover .project-img-hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.05);
+  }
+}
+
+@media (max-width: 991px) {
+  .project-img-hover {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
   }
 }

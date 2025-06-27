@@ -75,8 +75,9 @@ function About() {
         </p>
         <a
           className="text-decoration-none rounded-pill arrow-btn ms-3"
-          href="#"
+          href="https://drive.google.com/file/d/1LF53AYoPfn5h2z8h2MRW1bnB-ASEw97A/view"
           data-aos="zoom-in"
+          download
           data-aos-delay="600"
         >
           My Resume

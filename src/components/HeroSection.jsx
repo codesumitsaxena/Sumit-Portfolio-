@@ -3,6 +3,12 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 import Sumit from '../assets/Sumit Saxena.jpg'
 import 'aos/dist/aos.css';
+import Airbnb from '../assets/Airbnb.png'
+import MidtownImg from '../assets/MidTown.png'
+import IlandingImg from '../assets/IlandingImg.png'
+
+
+
 
 function HeroSection() {
   useEffect(() => {
@@ -31,10 +37,10 @@ function HeroSection() {
               <a href="https://github.com/codesumitsaxena" className='text-decoration-none text-dark d-flex align-items-center'>
                 Github <i className="bi bi-arrow-up-right ms-1 text-dark fw-bold font-icon"></i>
               </a>
-              <a href="#" className='text-decoration-none text-dark d-flex align-items-center'>
+              <a href="https://www.linkedin.com/in/engineersumitsaxena" className='text-decoration-none text-dark d-flex align-items-center'>
                 Linkdin <i className="bi bi-arrow-up-right ms-1 text-dark fw-bold font-icon"></i>
               </a>
-              <a href="#" className='text-decoration-none text-dark d-flex align-items-center'>
+              <a href="mailto:engineersumitsaxena@gmail.com" className='text-decoration-none text-dark d-flex align-items-center'>
                 Gmail <i className="bi bi-arrow-up-right arrow-s ms-1 text-dark font-icon"></i>
               </a>
             </div>
@@ -83,10 +89,10 @@ function HeroSection() {
       </div>
 
       {/* Featured  */}
-      <div className="container my-5 px-3 px-md-5">
+      <div className="container my-3 px-3 px-md-5">
         <h2 className="fs-1 fw-bold text-sm-center" data-aos="fade-up">FEATURED WORK</h2>
         <div className="row" data-aos="fade-up" data-aos-delay="100">
-          <div className="d-flex justify-content-between align-items-center flex-wrap">
+          <div className="d-flex justify-content-between align-items-center mt-3 flex-wrap">
             <p className="featured-para mb-0">
               As a front-end developer, I bring modern ideas, simplicity, and universal <br className="d-none d-md-block" />
               design to create impactful digital experiences.
@@ -97,95 +103,72 @@ function HeroSection() {
           </div>
         </div>
 
-        {/* Project 1 */}
-        <div className="row project my-5" data-aos="fade-up" data-aos-delay="150">
-          <div className="col-12 d-flex justify-content-between align-items-center flex-wrap">
-            <div className="mb-2">
-              <h4>Web Design (01)</h4>
-              <p className="mb-0">Creating engaging modern designs</p>
-            </div>
-            <div>
-              <a className="text-decoration-none ms-3 d-flex align-items-center" href="#">
-                View Project <i className="bi bi-arrow-up-right ms-1 text-dark fw-bold font-icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Project 2 */}
-        <div className="row project my-5" data-aos="fade-up" data-aos-delay="200">
-          <div className="col-12 d-flex justify-content-between align-items-center flex-wrap">
-            <div className="mb-2">
-              <h4>Web Development (02)</h4>
-              <p className="mb-0">Building functional, logical websites</p>
-            </div>
-            <div>
-              <a className="text-decoration-none ms-3 d-flex align-items-center" href="#">
-                View Project <i className="bi bi-arrow-up-right ms-1 text-dark fw-bold font-icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Project 3 */}
-        <div className="row project my-5" data-aos="fade-up" data-aos-delay="250">
-          <div className="col-12 d-flex justify-content-between align-items-center flex-wrap">
-            <div className="mb-2">
-              <h4>Web Animations & Effects (03)</h4>
-              <p className="mb-0">Enhancing UI with smooth animations and interactive elements</p>
-            </div>
-            <div>
-              <a className="text-decoration-none ms-3 d-flex align-items-center" href="#">
-                View Project <i className="bi bi-arrow-up-right ms-1 text-dark fw-bold font-icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="container d-flex justify-content-center align-items-center my-4" data-aos="fade-up">
-          <a href="https://github.com/codesumitsaxena" className='rounded-pill git-btn text-decoration-none px-4 py-2 d-flex align-items-center'>
-            More Projects On <i className="bi bi-github ms-1"></i>
-          </a>
-        </div>
-
-        {/* Services */}
-        <div className="container px-0 px-md-5">
-          <div className="row my-5" data-aos="fade-up" data-aos-delay="300">
-            <div className="col-lg-6 mb-4 mb-lg-0">
-              <h2>MY SERVICE<br /> EXPERTISE</h2>
-            </div>
-            <div className="col-lg-6">
-              <p>
-                As a front-end developer, I use modern ideas, simplicity in design, and universal visual identification tailored to the dedicated and current market.
-              </p>
-              <a className="text-decoration-none rounded-pill arrow-btn d-inline-flex align-items-center" href="#">
-                Let's Discuss <i className="bi bi-arrow-up-right ms-1 text-dark fw-bold font-icon"></i>
-              </a>
-            </div>
-          </div>
-          </div>
-          <div className="container">
-  <div className="row my-5 py-5 g-2">
-    <div className="col-lg-4 py-3  border-top border-dark" data-aos="fade-up" data-aos-delay="350">
-      <p>(01)</p>
-      <h4>UI/UX Implementation</h4>
-      <p>Creating intuitive user interfaces with modern design principles, ensuring seamless user experience across devices.</p>
+    
+  
+{/* Project 1 */}
+<div className="row project" data-aos="fade-up" data-aos-delay="150">
+  <div className="d-flex flex-wrap justify-content-between align-items-center g-4">
+    <div className="col-lg-4 py-5">
+      <h4>ilanding (01)</h4>
+      <p className="mb-0">
+        Built a responsive ilanding website using React, Bootstrap, and Material UI. Focused on clean design, smooth user interaction, and modern component-based architecture.
+      </p>
     </div>
-    <div className="col-lg-4 py-3 border-top border-dark" data-aos="fade-up" data-aos-delay="400">
-      <p>(02)</p>
-      <h4>Animations & Performance Optimization</h4>
-      <p>Enhancing UI with smooth animations and interactive elements</p>
+    <div className="col-lg-4 text-center">
+      <img src={IlandingImg} alt="IlandingImg" className="img-fluid rounded project-img-hover" />
     </div>
-    <div className="col-lg-4 py-3  border-top border-dark" data-aos="fade-up" data-aos-delay="450">
-      <p>(03)</p>
-      <h4>DEVELOPMENT</h4>
-      <p>Proficient in React, JavaScript, and Bootstrap to build responsive and interactive web applications.</p>
+    <div className="col-lg-4 py-5 d-flex justify-content-end">
+      <a className="text-decoration-none d-flex align-items-center" href="https://ilanding-phi.vercel.app/">
+        View Project
+        <i className="bi bi-arrow-up-right ms-2 text-dark fw-bold font-icon"></i>
+      </a>
     </div>
   </div>
 </div>
 
 
-        </div>
+{/* Project 2 */}
+<div className="row project " data-aos="fade-up" data-aos-delay="200">
+  <div className="d-flex flex-wrap py-5 justify-content-between align-items-center g-4">
+    <div className="col-lg-4 ">
+      <h4>Airbnb Clone working (02)</h4>
+      <p className="mb-0">
+        Currently Developed a full-featured Airbnb clone using React, Redux, Bootstrap, API integration, routing, and Node.js for backend logic and data flow.
+      </p>
+    </div>
+    <div className="col-lg-4 text-center">
+    <img src={Airbnb} alt="Airbnb" className="img-fluid rounded project-img-hover" />
+    </div>
+    <div className="col-lg-4 d-flex justify-content-end">
+      <a className="text-decoration-none d-flex align-items-end" href="#">
+        View Project
+        <i className="bi bi-arrow-up-right ms-2 text-dark fw-bold font-icon"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+{/* Project 3 */}
+<div className="row project " data-aos="fade-up" data-aos-delay="250">
+  <div className="d-flex flex-wrap py-5 justify-content-between align-items-center g-4">
+    <div className="col-lg-4">
+      <h4>MidTown Clone (03)</h4>
+      <p className="mb-0">
+        Built a responsive MidTown website clone using React and Bootstrap. Emphasized clean layout, component-based structure, and smooth navigation to replicate a modern and user-friendly interface.
+      </p>
+    </div>
+    <div className="col-lg-4 text-center">
+    <img src={MidtownImg} alt="MidtownImg" className="img-fluid rounded project-img-hover" />
+    </div>
+    <div className="col-lg-4 d-flex justify-content-end">
+      <a className="text-decoration-none d-flex align-items-center" href="https://midtown-clone.vercel.app/">
+        View Project
+        <i className="bi bi-arrow-up-right ms-2 text-dark fw-bold font-icon"></i>
+      </a>
+    </div>
+  </div>
+</div>
+</div>
       <div className="container-fluid">
         <hr />
       </div>
