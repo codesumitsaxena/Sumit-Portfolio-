@@ -107,17 +107,19 @@ function HeroSection() {
   
 {/* Project 1 */}
 <div className="row project" data-aos="fade-up" data-aos-delay="150">
-  <div className="d-flex flex-wrap justify-content-between align-items-center g-4">
-    <div className="col-lg-4 py-5">
+  <div className="d-flex flex-wrap my-4 justify-content-between align-items-center gap-sm-5 gap-3">
+    <div className="col-lg-4">
       <h4>ilanding (01)</h4>
       <p className="mb-0">
         Built a responsive ilanding website using React, Bootstrap, and Material UI. Focused on clean design, smooth user interaction, and modern component-based architecture.
       </p>
     </div>
-    <div className="col-lg-4 text-center">
+
+    <div className="col-lg-4 text-center my-2 my-lg-0">
       <img src={IlandingImg} alt="IlandingImg" className="img-fluid rounded project-img-hover" />
     </div>
-    <div className="col-lg-4 py-5 d-flex justify-content-end">
+
+    <div className="col-lg-4 d-flex justify-content-end">
       <a className="text-decoration-none d-flex align-items-center" href="https://ilanding-phi.vercel.app/">
         View Project
         <i className="bi bi-arrow-up-right ms-2 text-dark fw-bold font-icon"></i>
@@ -126,21 +128,22 @@ function HeroSection() {
   </div>
 </div>
 
-
 {/* Project 2 */}
-<div className="row project " data-aos="fade-up" data-aos-delay="200">
-  <div className="d-flex flex-wrap py-5 justify-content-between align-items-center g-4">
-    <div className="col-lg-4 ">
-      <h4>Airbnb Clone working (02)</h4>
+<div className="row project" data-aos="fade-up" data-aos-delay="200">
+  <div className="d-flex flex-wrap my-4 justify-content-between align-items-center gap-sm-5 gap-3">
+    <div className="col-lg-4">
+      <h4>Airbnb Clone (02)</h4>
       <p className="mb-0">
-        Currently Developed a full-featured Airbnb clone using React, Redux, Bootstrap, API integration, routing, and Node.js for backend logic and data flow.
+        Developed a full-featured Airbnb clone using React, Redux, Bootstrap, API integration, and Node.js backend. It offers seamless booking, filtering, and authentication.
       </p>
     </div>
-    <div className="col-lg-4 text-center">
-    <img src={Airbnb} alt="Airbnb" className="img-fluid rounded project-img-hover" />
+
+    <div className="col-lg-4 text-center my-2 my-lg-0">
+      <img src={Airbnb} alt="Airbnb Clone" className="img-fluid rounded project-img-hover" />
     </div>
+
     <div className="col-lg-4 d-flex justify-content-end">
-      <a className="text-decoration-none d-flex align-items-end" href="#">
+      <a className="text-decoration-none d-flex align-items-center" href="https://airbnb-clone.vercel.app/">
         View Project
         <i className="bi bi-arrow-up-right ms-2 text-dark fw-bold font-icon"></i>
       </a>
@@ -149,17 +152,19 @@ function HeroSection() {
 </div>
 
 {/* Project 3 */}
-<div className="row project " data-aos="fade-up" data-aos-delay="250">
-  <div className="d-flex flex-wrap py-5 justify-content-between align-items-center g-4">
+<div className="row project" data-aos="fade-up" data-aos-delay="250">
+  <div className="d-flex flex-wrap my-4 justify-content-between align-items-center gap-sm-5 gap-3">
     <div className="col-lg-4">
       <h4>MidTown Clone (03)</h4>
       <p className="mb-0">
-        Built a responsive MidTown website clone using React and Bootstrap. Emphasized clean layout, component-based structure, and smooth navigation to replicate a modern and user-friendly interface.
+        Built a MidTown website clone using React and Bootstrap. Prioritized clean layout, component modularity, and animated transitions for a modern UX.
       </p>
     </div>
-    <div className="col-lg-4 text-center">
-    <img src={MidtownImg} alt="MidtownImg" className="img-fluid rounded project-img-hover" />
+
+    <div className="col-lg-4 text-center my-2 my-lg-0">
+      <img src={MidtownImg} alt="MidTown Clone" className="img-fluid rounded project-img-hover" />
     </div>
+
     <div className="col-lg-4 d-flex justify-content-end">
       <a className="text-decoration-none d-flex align-items-center" href="https://midtown-clone.vercel.app/">
         View Project
@@ -168,6 +173,7 @@ function HeroSection() {
     </div>
   </div>
 </div>
+
 </div>
       <div className="container-fluid">
         <hr />
